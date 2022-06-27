@@ -1,7 +1,7 @@
 import { BrowserRouter } from "react-router-dom";
 import { AppRoutes } from "./routes";
 import { ThemeProvider } from "@mui/material";
-import { ligthTheme } from "./shared/themes";
+import { ligthTheme, darkTheme } from "./shared/themes";
 
 export const App = () => {
   return (
